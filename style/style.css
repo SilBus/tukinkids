@@ -1,0 +1,116 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.btn-hamburg {
+    border: 0;
+    border-bottom: 0;
+    border-style: none;
+}
+
+.styleLet {
+    font-family: 'Bagel Fat One', cursive;
+    color: #fff;
+    background-image: linear-gradient(90deg, #13E6FF 0%, #E616FF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.styleLet:hover {
+    color: #fff;
+    background-image: linear-gradient(90deg, #000000 0%, #000000 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transform: scale(1.1);
+}
+
+.mnhome {
+    max-width: 80%;
+    background: linear-gradient(90deg, #2DFDE0 0%, #FF92CC 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h4 {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kablammo', cursive;
+    color: #fff;
+    background-image: linear-gradient(90deg, #13E6FF 0%, #E616FF 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.btn-estilo {
+    font-family: 'Bagel Fat One', cursive;
+    background: linear-gradient(90deg, #2DFDE0 0%, #FF92CC 100%);
+    transition: 1s ease 0s;
+}
+
+.btn-estilo:hover {
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+}
+
+/*FORMULARIO*/
+.sty8 {
+    width: 14.5rem;
+    background: #fafafa70;
+}
+
+.sty21 {
+    margin-bottom: .5rem;
+    background: #fafafa70;
+}
+
+.hov1 {
+    margin: 1rem;
+}
+
+.sty22 {
+    width: 5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.226);
+    transition: 1s ease 0s;
+}
+
+.sty22:hover {
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.mncontact {
+    background: linear-gradient(90deg, #2DFDE0 0%, #FF92CC 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sty9 {
+    border: 2px solid #fafafa10;
+    border-radius: 20px;
+    background: #fafafa70;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
+
+.sty25 {
+    border: 2px solid #fafafa10;
+    border-radius: 20px;
+    background: #fafafa25;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
+
+.sty25:hover {
+    box-shadow: 1px 1px 14px 5px #ffffff;
+}
