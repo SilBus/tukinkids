@@ -46,6 +46,11 @@ h4 {
     -webkit-background-clip: text;
 }
 
+.letcomp{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kablammo', cursive;
+}
+
 .btn-estilo {
     font-family: 'Bagel Fat One', cursive;
     background: linear-gradient(90deg, #2DFDE0 0%, #FF92CC 100%);
