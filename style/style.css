@@ -30,6 +30,9 @@ body {
     transform: scale(1.1);
 }
 
+.sty1{
+    font-size: 1.3rem;
+}
 .mnhome {
     max-width: 80%;
     background: linear-gradient(90deg, #2DFDE0 0%, #FF92CC 100%);
@@ -46,9 +49,18 @@ h4 {
     -webkit-background-clip: text;
 }
 
+h3{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kablammo', cursive;
+}
+
 .letcomp{
     font-family: 'Anton', sans-serif;
     font-family: 'Kablammo', cursive;
+}
+
+.letgral{
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-estilo {
@@ -57,6 +69,13 @@ h4 {
     transition: 1s ease 0s;
 }
 
+.mncomp{
+    max-width: 80%;
+    border: 0;
+    background: linear-gradient(90deg, #2DFDE0 0%, #FF92CC 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .btn-estilo:hover {
     color: #fff;
 }
@@ -95,6 +114,7 @@ footer {
 }
 
 .mncontact {
+    max-width: 80%;
     background: linear-gradient(90deg, #2DFDE0 0%, #FF92CC 100%);
     background-position: center;
     background-repeat: no-repeat;
