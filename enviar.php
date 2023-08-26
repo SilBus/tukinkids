@@ -45,8 +45,7 @@ return(mail($sPara, $sAsunto, $sTexto, $sCabeceras));
 } 
 
 //cambiar aqui el email 
-if (form_mail("tukinkids@gmail.com", $_POST[asunto], 
+if (form_mail("bsouto@gmail.com", $_POST[asunto], 
 "Los datos introducidos en el formulario son:\n\n", $_POST[email])) 
-/*echo "Muchas Gracias. Su mensaje fue enviado con exito"; */
-header("location: index.html");
+echo "Muchas Gracias. Su mensaje fue enviado con exito"; 
 ?>
